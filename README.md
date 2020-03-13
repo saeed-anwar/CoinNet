@@ -31,7 +31,7 @@ The following figure shows the architecture of our network
 Our model highlighting the Compact Bilinear Pooling, residual blocks, skip connections, and feature attention. The green and yellow cubes indicate the embedded features via CNN networks.
 
 ## Test
-### Quick start
+#### Quick start
 1. Download the trained models for our paper and place them in '/TestCode/experiment'.
 
 The real denoising model can be downloaded from [Google Drive](https://drive.google.com/open?id=1QxO6KFOVxaYYiwxliwngxhw_xCtInSHd) or [here](https://icedrive.net/0/e3Cb4ifYSl). The total size for all models is 5MB.
@@ -57,13 +57,13 @@ Representative images: Samples images of the 100 classes that constitute the RRC
 ## Results
 **All the results for RIDNET can be downloaded from GoogleDrive from [SSID](https://drive.google.com/open?id=15peD5EvQ5eQmd-YOtEZLd9_D4oQwWT9e), [RNI15](https://drive.google.com/open?id=1PqLHY6okpD8BRU5mig0wrg-Xhx3i-16C) and [DnD](https://noise.visinf.tu-darmstadt.de/submission-detail). The size of the results is 65MB** 
 
-### Quantitative Results
+#### Quantitative Results
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Table1.PNG">
 </p>
 Quantitative comparison: Comparison of our method with state-of-the-art methods on train-test split of 30%-70%. All results reported as top-1 mean accuracy on the test set
 
-### Ablation Study
+#### Ablation Study
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/FeaturesEffect.PNG">
 </p>
@@ -79,7 +79,7 @@ Influence of vocabulary: The effect of the vocabulary size on the classification
 </p>
 Accuracy on the unseen coin types for competing CNNs
 
-### Visual Results
+#### Visual Results
 <p align="center">
   <img width="450" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Attention.PNG">
 </p>
