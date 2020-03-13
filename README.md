@@ -20,23 +20,16 @@ The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16
 We perform classification of ancient Roman Republican coins via recognizing their reverse motifs where various objects, faces, scenes, animals, and buildings are minted along with legends. Most of these coins are eroded due to their age and varying degrees of preservation, thereby affecting their informative attributes for visual recognition. Changes in the positions of principal symbols on the reverse motifs also cause huge variations among the coin types. Lastly, in-plane orientations, uneven illumination, and a moderate background clutter further make the task of classification non-trivial and challenging.
 To this end, we present a novel network model, CoinNet, that employs compact bilinear pooling, residual groups, and feature attention layers. Furthermore, we gathered the largest and most diverse image dataset of the Roman Republican coins that contains more than 18,000 images belonging to 228 different reverse motifs. On this dataset, our model achieves a classification accuracy of more than 98% and outperforms the conventional bag-of-visual-words based approaches and more recent state-of-the-art deep learning methods. We also provide a detailed ablation study of our network and its generalization capability.
 
-## Introduction
-Deep convolutional neural networks perform better on images containing spatially invariant noise (synthetic noise); however, their performance is limited on real-noisy photographs and requires multiple stage network modeling. To advance the practicability of denoising algorithms, this paper proposes a novel single-stage blind real image denoising network (RIDNet) by employing a modular architecture. We use a residual on the residual structure to ease the flow of low-frequency information and apply feature attention to exploit the channel dependencies. Furthermore, the evaluation in terms of quantitative metrics and visual quality on three synthetic and four real noisy datasets against 19 state-of-the-art algorithms demonstrate the superiority of our RIDNet.
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/Front.PNG">
+  <img width="600" src="https://github.com/saeed-anwar/CoinNet/tree/master/Figs/DatasetChallenge.png">
 </p>
-Sample results on a real noisy face image from RNI15 dataset.
+Variations in the anatomy of the reverse motifs due to the positions of the symbol (Red-dotted line border), main object(Blue-Solid line border), and legend(Orangedashed line border).
 
 ## Network
-![Network](/Figs/Net.PNG)
-The architecture of the proposed network. Different green colors of the conv layers denote different dilations while the smaller
-size of the conv layer means the kernel is 1x1. The second row shows the architecture of each EAM.
-
-<p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/FeatureAtt.PNG">
-</p>
-The feature attention mechanism for selecting the essential features.
+The following figure shows the architecture of our network
+![Network](/Figs/Network.PNG)
+CoinNet: Our model highlighting the Compact Bilinear Pooling, residual blocks, skip connections, and feature attention. The green and yellow cubes indicate the embedded features via CNN networks.
 
 
 ## Train
@@ -99,19 +92,10 @@ Few more examples from SSID dataset.
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
 ```
-@article{anwar2019ridnet,
-  title={Real Image Denoising with Feature Attention},
-  author={Anwar, Saeed and Barnes, Nick},
-  journal={arXiv preprint arXiv:1904.07396},
+@article{Anwar2019CoinNet,
+  title={CoinNet: Deep Ancient Roman Republican Coin Classification via Feature Fusion and Attention},
+  author={Anwar, Hafeez and Anwar, Saeed and Zambanini, Sebastian and Porikli, Fatih},
+  journal={arXiv preprint arXiv:1908.09428},
   year={2019}
 }
-
-@article{anwar2017chaining,
-  title={Chaining identity mapping modules for image denoising},
-  author={Anwar, Saeed and Huynh, Cong Phouc and Porikli, Fatih},
-  journal={arXiv preprint arXiv:1712.02933},
-  year={2017}
-}
 ```
-## Acknowledgements
-This code is built on [DRLN (PyTorch)](https://github.com/saeed-anwar/DRLN)
