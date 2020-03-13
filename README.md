@@ -34,7 +34,7 @@ CoinNet: Our model highlighting the Compact Bilinear Pooling, residual blocks, s
 ### Quick start
 1. Download the trained models for our paper and place them in '/TestCode/experiment'.
 
-    The real denoising model can be downloaded from [Google Drive](https://drive.google.com/open?id=1QxO6KFOVxaYYiwxliwngxhw_xCtInSHd) or [here](https://icedrive.net/0/e3Cb4ifYSl). The total size for all models is 5MB.
+The real denoising model can be downloaded from [Google Drive](https://drive.google.com/open?id=1QxO6KFOVxaYYiwxliwngxhw_xCtInSHd) or [here](https://icedrive.net/0/e3Cb4ifYSl). The total size for all models is 5MB.
 
 2. Cd to '/TestCode/code', run the following scripts.
 
@@ -45,6 +45,10 @@ CoinNet: Our model highlighting the Compact Bilinear Pooling, residual blocks, s
     CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model RIDNET --n_feats 64 --pre_train ../experiment/ridnet.pt --test_only --save_results --save 'RIDNET_RNI15' --testpath ../LR/LRBI/ --testset RNI15
     ```
 
+## Dataset
+![DatasetSample1](/Figs/Dataset1.PNG)
+![DatasetSample1](/Figs/Dataset1.PNG)
+Representative images: Samples images of the 100 classes that constitute the RRCDMain.
 
 ## Results
 **All the results for RIDNET can be downloaded from GoogleDrive from [SSID](https://drive.google.com/open?id=15peD5EvQ5eQmd-YOtEZLd9_D4oQwWT9e), [RNI15](https://drive.google.com/open?id=1PqLHY6okpD8BRU5mig0wrg-Xhx3i-16C) and [DnD](https://noise.visinf.tu-darmstadt.de/submission-detail). The size of the results is 65MB** 
@@ -64,8 +68,7 @@ Visualization results from Grad-CAM. The visualization is computed for the last 
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Confidence.PNG">
 </p>
-The correctly classified images are represented with green circles while the wrongly classified ones are in red circles. In the first row, the confidence of the NasNet [46] is always low although the model can classify correctly. The second shows that the confidence of the VGG [45], which is consistently high even for wrongly classified classes.
-the traditional classifiers as the CNN methods may be benefiting from the weights of ImageNet [40].
+The correctly classified images are represented with green circles while the wrongly classified ones are in red circles. In the first row, the confidence of the NasNet is always low although the model can classify correctly. The second shows that the confidence of the VGG, which is consistently high even for wrongly classified classes. The traditional classifiers as the CNN methods may be benefiting from the weights of ImageNet.
 
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
