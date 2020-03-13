@@ -55,18 +55,15 @@ CoinNet: Our model highlighting the Compact Bilinear Pooling, residual blocks, s
 </p>
 Quantitative comparison: Comparison of our method with state-of-the-art methods on train-test split of 30%-70%. All results reported as top-1 mean accuracy on the test set
 
-<p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/SSIDTable.PNG">
-</p>
-The quantitative results (in PSNR (dB)) for the SSID and Nam datasets.. The best results are presented in bold.
-
-For more information, please refer to our [papar](https://arxiv.org/abs/1904.07396)
-
 ### Visual Results
-![Visual_Attention](/Figs/Attention.PNG)
+<p align="center">
+  <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Attention.PNG">
+</p>
 Visualization results from Grad-CAM. The visualization is computed for the last convolutional outputs, and the ground-truth labels are shown on the left column the input images.
 
-![Visual_PSNR_Dnd3](/Figs/Confidence.PNG)
+<p align="center">
+  <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Confidence.PNG">
+</p>
 The correctly classified images are represented with green circles while the wrongly classified ones are in red circles. In the first row, the confidence of the NasNet [46] is always low although the model can classify correctly. The second shows that the confidence of the VGG [45], which is consistently high even for wrongly classified classes.
 the traditional classifiers as the CNN methods may be benefiting from the weights of ImageNet [40].
 
