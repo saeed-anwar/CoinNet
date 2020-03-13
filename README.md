@@ -10,7 +10,6 @@ The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16
 ## Contents
 1. [Introduction](#introduction)
 2. [Network](#network)
-2. [Train](#train)
 3. [Test](#test)
 4. [Results](#results)
 5. [Citation](#citation)
@@ -30,10 +29,6 @@ Variations in the anatomy of the reverse motifs due to the positions of the symb
 The following figure shows the architecture of our network
 ![Network](/Figs/Network.PNG)
 CoinNet: Our model highlighting the Compact Bilinear Pooling, residual blocks, skip connections, and feature attention. The green and yellow cubes indicate the embedded features via CNN networks.
-
-
-## Train
-**Will be added later**
 
 ## Test
 ### Quick start
