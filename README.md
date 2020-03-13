@@ -21,14 +21,14 @@ To this end, we present a novel network model, CoinNet, that employs compact bil
 
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/DatasetChallenge.png">
+  <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/DatasetChallenge.png">
 </p>
 Variations in the anatomy of the reverse motifs due to the positions of the symbol (Red-dotted line border), main object(Blue-Solid line border), and legend(Orangedashed line border).
 
 ## Network
 The following figure shows the architecture of our network
 ![Network](/Figs/Network.PNG)
-CoinNet: Our model highlighting the Compact Bilinear Pooling, residual blocks, skip connections, and feature attention. The green and yellow cubes indicate the embedded features via CNN networks.
+Our model highlighting the Compact Bilinear Pooling, residual blocks, skip connections, and feature attention. The green and yellow cubes indicate the embedded features via CNN networks.
 
 ## Test
 ### Quick start
@@ -48,7 +48,7 @@ The real denoising model can be downloaded from [Google Drive](https://drive.goo
 ## Dataset
 ![DatasetSample1](/Figs/Dataset1.PNG)
 ![DatasetSample1](/Figs/Dataset1.PNG)
-Representative images: Samples images of the 100 classes that constitute the RRCDMain.
+Representative images: Samples images of the 100 classes that constitute the RRCD-Main.
 
 ## Results
 **All the results for RIDNET can be downloaded from GoogleDrive from [SSID](https://drive.google.com/open?id=15peD5EvQ5eQmd-YOtEZLd9_D4oQwWT9e), [RNI15](https://drive.google.com/open?id=1PqLHY6okpD8BRU5mig0wrg-Xhx3i-16C) and [DnD](https://noise.visinf.tu-darmstadt.de/submission-detail). The size of the results is 65MB** 
