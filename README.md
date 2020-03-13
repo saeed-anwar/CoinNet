@@ -72,7 +72,7 @@ Input features effect: Comparison of different input features combinations to ou
 <p align="center">
   <img width="350" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/VocabularyInfluence.PNG">
 </p>
-Influence of vocabulary: The effect of the vocabulary size on the classification performance for BoVWs and rectangular tiling.
+The effect of the vocabulary size on the classification performance for BoVWs and rectangular tiling.
 
 <p align="center">
   <img width="350" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/DisjointPerformance.PNG">
