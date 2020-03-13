@@ -21,7 +21,7 @@ To this end, we present a novel network model, CoinNet, that employs compact bil
 
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/CoinNet/tree/master/Figs/DatasetChallenge.png">
+  <img width="600" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/DatasetChallenge.png">
 </p>
 Variations in the anatomy of the reverse motifs due to the positions of the symbol (Red-dotted line border), main object(Blue-Solid line border), and legend(Orangedashed line border).
 
