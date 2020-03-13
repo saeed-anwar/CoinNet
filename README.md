@@ -20,7 +20,7 @@ We perform classification of ancient Roman Republican coins via recognizing thei
 To this end, we present a novel network model, CoinNet, that employs compact bilinear pooling, residual groups, and feature attention layers. Furthermore, we gathered the largest and most diverse image dataset of the Roman Republican coins that contains more than 18,000 images belonging to 228 different reverse motifs. On this dataset, our model achieves a classification accuracy of more than 98% and outperforms the conventional bag-of-visual-words based approaches and more recent state-of-the-art deep learning methods. We also provide a detailed ablation study of our network and its generalization capability.
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/DatasetChallenge.png">
+  <img width="450" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/DatasetChallenge.png">
 </p>
 Variations in the anatomy of the reverse motifs due to the positions of the symbol (Red-dotted line border), main object(Blue-Solid line border), and legend(Orangedashed line border).
 
@@ -65,12 +65,12 @@ Quantitative comparison: Comparison of our method with state-of-the-art methods 
 
 ### Visual Results
 <p align="center">
-  <img width="550" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Attention.PNG">
+  <img width="450" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Attention.PNG">
 </p>
 Visualization results from Grad-CAM. The visualization is computed for the last convolutional outputs, and the ground-truth labels are shown on the left column the input images.
 
 <p align="center">
-  <img width="550" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Confidence.PNG">
+  <img width="450" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Confidence.PNG">
 </p>
 The correctly classified images are represented with green circles while the wrongly classified ones are in red circles. In the first row, the confidence of the NasNet is always low although the model can classify correctly. The second shows that the confidence of the VGG, which is consistently high even for wrongly classified classes. The traditional classifiers as the CNN methods may be benefiting from the weights of ImageNet.
 
