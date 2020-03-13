@@ -51,9 +51,9 @@ CoinNet: Our model highlighting the Compact Bilinear Pooling, residual blocks, s
 
 ### Quantitative Results
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/DnDTable.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Table1.PNG">
 </p>
-The performance of state-of-the-art algorithms on widely used publicly available DnD dataset in terms of PSNR (in dB) and SSIM. The best results are highlighted in bold.
+Quantitative comparison: Comparison of our method with state-of-the-art methods on train-test split of 30%-70%. All results reported as top-1 mean accuracy on the test set
 
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/SSIDTable.PNG">
@@ -63,26 +63,12 @@ The quantitative results (in PSNR (dB)) for the SSID and Nam datasets.. The best
 For more information, please refer to our [papar](https://arxiv.org/abs/1904.07396)
 
 ### Visual Results
-![Visual_PSNR_DnD1](/Figs/DnD.PNG)
-A real noisy example from DND dataset for comparison of our method against the state-of-the-art algorithms.
+![Visual_Attention](/Figs/Attention.PNG)
+Visualization results from Grad-CAM. The visualization is computed for the last convolutional outputs, and the ground-truth labels are shown on the left column the input images.
 
-![Visual_PSNR_DnD2](/Figs/DnD2.PNG)
-![Visual_PSNR_Dnd3](/Figs/DnD3.PNG)
-Comparison on more samples from DnD. The sharpness of the edges on the objects and textures restored by our method is the best.
-
-<p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/RNI15.PNG">
-</p>
-A real high noise example from RNI15 dataset. Our method is able to remove the noise in textured and smooth areas without introducing artifacts
-
-<p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/SSID.PNG">
-</p>
-A challenging example from SSID dataset. Our method can remove noise and restore true colors
-
-![Visual_PSNR_SSIM_BI](/Figs/SSID3.PNG)
-![Visual_PSNR_SSIM_BI](/Figs/SSID2.PNG)
-Few more examples from SSID dataset.
+![Visual_PSNR_Dnd3](/Figs/Confidence.PNG)
+The correctly classified images are represented with green circles while the wrongly classified ones are in red circles. In the first row, the confidence of the NasNet [46] is always low although the model can classify correctly. The second shows that the confidence of the VGG [45], which is consistently high even for wrongly classified classes.
+the traditional classifiers as the CNN methods may be benefiting from the weights of ImageNet [40].
 
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
