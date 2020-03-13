@@ -19,7 +19,6 @@ The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16
 We perform classification of ancient Roman Republican coins via recognizing their reverse motifs where various objects, faces, scenes, animals, and buildings are minted along with legends. Most of these coins are eroded due to their age and varying degrees of preservation, thereby affecting their informative attributes for visual recognition. Changes in the positions of principal symbols on the reverse motifs also cause huge variations among the coin types. Lastly, in-plane orientations, uneven illumination, and a moderate background clutter further make the task of classification non-trivial and challenging.
 To this end, we present a novel network model, CoinNet, that employs compact bilinear pooling, residual groups, and feature attention layers. Furthermore, we gathered the largest and most diverse image dataset of the Roman Republican coins that contains more than 18,000 images belonging to 228 different reverse motifs. On this dataset, our model achieves a classification accuracy of more than 98% and outperforms the conventional bag-of-visual-words based approaches and more recent state-of-the-art deep learning methods. We also provide a detailed ablation study of our network and its generalization capability.
 
-
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/DatasetChallenge.png">
 </p>
@@ -27,6 +26,7 @@ Variations in the anatomy of the reverse motifs due to the positions of the symb
 
 ## Network
 The following figure shows the architecture of our network
+
 ![Network](/Figs/Network.PNG)
 Our model highlighting the Compact Bilinear Pooling, residual blocks, skip connections, and feature attention. The green and yellow cubes indicate the embedded features via CNN networks.
 
@@ -46,8 +46,12 @@ The real denoising model can be downloaded from [Google Drive](https://drive.goo
     ```
 
 ## Dataset
-![DatasetSample1](/Figs/Dataset1.PNG)
-![DatasetSample1](/Figs/Dataset1.PNG)
+<p align="center">
+  <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Dataset1.PNG">
+</p>
+<p align="center">
+  <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Dataset2.PNG">
+</p>
 Representative images: Samples images of the 100 classes that constitute the RRCD-Main.
 
 ## Results
