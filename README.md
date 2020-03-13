@@ -52,7 +52,7 @@ The real denoising model can be downloaded from [Google Drive](https://drive.goo
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Dataset2.PNG">
 </p>
-Representative images: Samples images of the 100 classes that constitute the RRCD-Main.
+Samples images of the 100 classes that constitute the RRCD-Main.
 
 ## Results
 **All the results for RIDNET can be downloaded from GoogleDrive from [SSID](https://drive.google.com/open?id=15peD5EvQ5eQmd-YOtEZLd9_D4oQwWT9e), [RNI15](https://drive.google.com/open?id=1PqLHY6okpD8BRU5mig0wrg-Xhx3i-16C) and [DnD](https://noise.visinf.tu-darmstadt.de/submission-detail). The size of the results is 65MB** 
@@ -61,13 +61,13 @@ Representative images: Samples images of the 100 classes that constitute the RRC
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Table1.PNG">
 </p>
-Quantitative comparison: Comparison of our method with state-of-the-art methods on train-test split of 30%-70%. All results reported as top-1 mean accuracy on the test set
+Comparison of our method with state-of-the-art methods on train-test split of 30%-70%. All results reported as top-1 mean accuracy on the test set
 
 #### Ablation Study
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/FeaturesEffect.PNG">
 </p>
-Input features effect: Comparison of different input features combinations to our CoinNet. Our network is robust to the change in the input features such as generated via ResNet50 (r50), DenseNet161 (d161) and Vgg19.
+Comparison of different input features combinations to our CoinNet. Our network is robust to the change in the input features such as generated via ResNet50 (r50), DenseNet161 (d161) and Vgg19.
 
 <p align="center">
   <img width="350" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/VocabularyInfluence.PNG">
