@@ -67,10 +67,16 @@ Quantitative comparison: Comparison of our method with state-of-the-art methods 
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/FeaturesEffect.PNG">
 </p>
 Input features effect: Comparison of different input features combinations to our CoinNet. Our network is robust to the change in the input features such as generated via ResNet50 (r50), DenseNet161 (d161) and Vgg19.
+
 <p align="center">
   <img width="350" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/VocabularyInfluence.PNG">
 </p>
 Influence of vocabulary: The effect of the vocabulary size on the classification performance for BoVWs and rectangular tiling.
+
+<p align="center">
+  <img width="350" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/DisjointPerformance.PNG">
+</p>
+Accuracy on the unseen coin types for competing CNNs
 
 ### Visual Results
 <p align="center">
