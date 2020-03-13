@@ -65,12 +65,12 @@ Quantitative comparison: Comparison of our method with state-of-the-art methods 
 
 ### Visual Results
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Attention.PNG">
+  <img width="550" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Attention.PNG">
 </p>
 Visualization results from Grad-CAM. The visualization is computed for the last convolutional outputs, and the ground-truth labels are shown on the left column the input images.
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Confidence.PNG">
+  <img width="550" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Confidence.PNG">
 </p>
 The correctly classified images are represented with green circles while the wrongly classified ones are in red circles. In the first row, the confidence of the NasNet is always low although the model can classify correctly. The second shows that the confidence of the VGG, which is consistently high even for wrongly classified classes. The traditional classifiers as the CNN methods may be benefiting from the weights of ImageNet.
 
