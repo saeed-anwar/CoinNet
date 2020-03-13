@@ -11,9 +11,9 @@ The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16
 1. [Introduction](#introduction)
 2. [Network](#network)
 3. [Test](#test)
-4. [Results](#results)
-5. [Citation](#citation)
-6. [Acknowledgements](#acknowledgements)
+4. [Dataset](#dataset)
+5. [Results](#results)
+6. [Citation](#citation)
 
 ## Introduction
 We perform classification of ancient Roman Republican coins via recognizing their reverse motifs where various objects, faces, scenes, animals, and buildings are minted along with legends. Most of these coins are eroded due to their age and varying degrees of preservation, thereby affecting their informative attributes for visual recognition. Changes in the positions of principal symbols on the reverse motifs also cause huge variations among the coin types. Lastly, in-plane orientations, uneven illumination, and a moderate background clutter further make the task of classification non-trivial and challenging.
