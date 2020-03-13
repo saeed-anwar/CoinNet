@@ -63,6 +63,7 @@ Representative images: Samples images of the 100 classes that constitute the RRC
 </p>
 Quantitative comparison: Comparison of our method with state-of-the-art methods on train-test split of 30%-70%. All results reported as top-1 mean accuracy on the test set
 
+### Ablation Study
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/FeaturesEffect.PNG">
 </p>
