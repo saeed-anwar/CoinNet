@@ -55,8 +55,6 @@ The real denoising model can be downloaded from [Google Drive]() or [here](). Th
 Samples images of the 100 classes that constitute the RRCD-Main.
 
 ## Results
-**All the results for RIDNET can be downloaded from GoogleDrive from [SSID](https://drive.google.com/open?id=15peD5EvQ5eQmd-YOtEZLd9_D4oQwWT9e), [RNI15](https://drive.google.com/open?id=1PqLHY6okpD8BRU5mig0wrg-Xhx3i-16C) and [DnD](https://noise.visinf.tu-darmstadt.de/submission-detail). The size of the results is 65MB** 
-
 #### Quantitative Results
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Table1.PNG">
