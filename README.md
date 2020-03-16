@@ -41,7 +41,7 @@ The real denoising model can be downloaded from [Google Drive]() or [here](). Th
     **You can use the following script to test the algorithm**
 
     ```bash
-    #RIDNET
+    #CoinNet
     CUDA_VISIBLE_DEVICES=0 python main.py
     ```
 
