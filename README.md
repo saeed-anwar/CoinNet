@@ -32,17 +32,17 @@ Our model highlighting the Compact Bilinear Pooling, residual blocks, skip conne
 
 ## Test
 #### Quick start
-1. Download the trained models for our paper and place them in '/TestCode/experiment'.
+1. Download the trained models for our paper and place them in '..'.
 
-The real denoising model can be downloaded from [Google Drive](https://drive.google.com/open?id=1QxO6KFOVxaYYiwxliwngxhw_xCtInSHd) or [here](https://icedrive.net/0/e3Cb4ifYSl). The total size for all models is 5MB.
+The real denoising model can be downloaded from [Google Drive]() or [here](). The total size for all models is 5MB.
 
-2. Cd to '/TestCode/code', run the following scripts.
+2. Cd to '..', run the following scripts.
 
     **You can use the following script to test the algorithm**
 
     ```bash
     #RIDNET
-    CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model RIDNET --n_feats 64 --pre_train ../experiment/ridnet.pt --test_only --save_results --save 'RIDNET_RNI15' --testpath ../LR/LRBI/ --testset RNI15
+    CUDA_VISIBLE_DEVICES=0 python main.py
     ```
 
 ## Dataset
