@@ -33,18 +33,14 @@ Our model highlighting the Compact Bilinear Pooling, residual blocks, skip conne
 ## Test
 #### Quick start
 1. Download the trained models for our paper and place them in '..'.
-
-The real denoising model can be downloaded from [Google Drive]() or [here](). The total size for all models is 5MB.
+The model can be downloaded from [Google Drive]() or [here](). 
 
 2. Cd to '..', run the following scripts.
-
     **You can use the following script to test the algorithm**
-
     ```bash
     #CoinNet
     CUDA_VISIBLE_DEVICES=0 python main.py
     ```
-
 ## Dataset
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Dataset1.PNG">
