@@ -38,7 +38,7 @@ Our model highlighting the Compact Bilinear Pooling, residual blocks, skip conne
 ## Test
 #### Quick start
 1. Download the trained models for our paper and place them in '..'.
-The model can be downloaded from [Google Drive](https://drive.google.com/open?id=1G6eCoD1RI2tde8advwxlqgTlgRwzHWGP). 
+The model can be downloaded from [Google Drive](https://drive.google.com/open?id=1G6eCoD1RI2tde8advwxlqgTlgRwzHWGP). The size is 409MB
 
 2. Cd to '..', run the following scripts.
     **You can use the following script to test the algorithm**
@@ -47,7 +47,7 @@ The model can be downloaded from [Google Drive](https://drive.google.com/open?id
     CUDA_VISIBLE_DEVICES=0 python test.py
     ```
 ## Dataset
-The dataset can be downloaded from [Google Drive](https://drive.google.com/open?id=1Bxcoesctd4xKvXMdgbLTCLjQkC7peQPY)
+The dataset can be downloaded from [Google Drive](https://drive.google.com/open?id=1Bxcoesctd4xKvXMdgbLTCLjQkC7peQPY). The size of the dataset is 8.65GB
 
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Dataset1.PNG">
