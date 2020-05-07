@@ -40,7 +40,7 @@ Our model highlighting the Compact Bilinear Pooling, residual blocks, skip conne
 1. Download the trained models for our paper and place them in '..'.
 The model can be downloaded from [Google Drive](https://drive.google.com/open?id=1G6eCoD1RI2tde8advwxlqgTlgRwzHWGP). The size is 409MB
 
-2. Cd to '..', run the following scripts.
+2. Cd to 'CoinNet_Model', run the following scripts.
     **You can use the following script to test the algorithm**
     ```bash
     #CoinNet
