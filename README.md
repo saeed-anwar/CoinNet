@@ -2,7 +2,7 @@
 
 This repository is for CoinNet: Deep Ancient Roman Republican Coin Classification via Feature Fusion and Attention (CoinNet) introduced in the following paper
 
-Hafeez Anwar, [Saeed Anwar](https://saeed-anwar.github.io/), Sebastian Zambanini, [Fatih Porikli](https://www.porikli.com), "CoinNet: Deep Ancient Roman Republican Coin Classification via Feature Fusion and Attention", [arxiv](https://arxiv.org/abs/1908.09428) 
+Hafeez Anwar, [Saeed Anwar](https://saeed-anwar.github.io/), Sebastian Zambanini, [Fatih Porikli](https://www.porikli.com), "CoinNet: Deep Ancient Roman Republican Coin Classification via Feature Fusion and Attention", [arXiv](https://arxiv.org/abs/1908.09428) 
 
 The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1). 
 
@@ -42,6 +42,8 @@ The model can be downloaded from [Google Drive]() or [here]().
     CUDA_VISIBLE_DEVICES=0 python main.py
     ```
 ## Dataset
+The dataset can be downloaded from [Google Drive](https://drive.google.com/open?id=1Bxcoesctd4xKvXMdgbLTCLjQkC7peQPY)
+
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/CoinNet/blob/master/Figs/Dataset1.PNG">
 </p>
