@@ -94,10 +94,14 @@ The correctly classified images are represented with green circles while the wro
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
 ```
-@article{Anwar2019CoinNet,
-  title={CoinNet: Deep Ancient Roman Republican Coin Classification via Feature Fusion and Attention},
-  author={Anwar, Hafeez and Anwar, Saeed and Zambanini, Sebastian and Porikli, Fatih},
-  journal={arXiv preprint arXiv:1908.09428},
-  year={2019}
+@article{Anwar2021CoinNet,
+    title = {Deep Ancient Roman Republican Coin Classification via Feature Fusion and Attention},
+    journal = {Pattern Recognition},
+    pages = {107871},
+    year = {2021},
+    issn = {0031-3203},
+    doi = {https://doi.org/10.1016/j.patcog.2021.107871},
+    url = {https://www.sciencedirect.com/science/article/pii/S0031320321000583},
+    author = {Hafeez Anwar and Saeed Anwar and Sebastian Zambanini and Fatih Porikli},
 }
 ```
